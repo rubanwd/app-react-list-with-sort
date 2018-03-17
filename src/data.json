@@ -1,0 +1,18 @@
+[
+	{
+	  "id": 0,
+	  "name": "Chad Snyder",
+	  "age": 28,
+	  "phone": "(050)001-222-9999",
+	  "image": "dog",
+	  "phrase": "Owmeco jen be tezpoksim vojuz..."
+	},
+	{
+	  "id": 1,
+	  "name": "Serhii Ruban",
+	  "age": 31,
+	  "phone": "(050)001-22-99",
+	  "image": "owl",
+	  "phrase": "Owmeco jen be tezpoksim vojuz..."
+	}
+]
