@@ -1,18 +1,11 @@
 import React from 'react';
+import loader from '../img/throbber_13.gif';
 
 function UserActive(props) {
 
+	if (!props.data) { return <h3 className="loader"><img src={loader} width="100" height="100" alt="loading..." /></h3> }
 	
-	if (!props.data) { return <h3>Nothing found :(</h3>; }
-	
-
-	let users = props.data;
-
-	let active = props.active;
-
-	let user = users[active];
-
-
+	let user = props.data[props.active];
 
 	console.log('datka11', user);
 	

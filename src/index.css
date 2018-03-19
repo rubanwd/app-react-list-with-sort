@@ -27,7 +27,8 @@ ul {
 	height: 250px;
 	max-width: 900px;
 	background-color: #fff;
-
+	border-top: solid 1px #ccc;
+	padding-top: 16px;
 }
 
 .users-list {
@@ -72,4 +73,20 @@ ul {
 	margin-left: 20px;
 	text-align: left;
 	overflow: hidden;
+}
+
+.searchbar {
+
+}
+.input-search {
+	padding: 10px;
+	margin: 15px 0;
+	border: solid #81B163 3px;
+	border-radius: 12px;
+	font-size: 20px;
+	min-width: 300px;
+}
+
+.btn {
+	margin: 4px;
 }
